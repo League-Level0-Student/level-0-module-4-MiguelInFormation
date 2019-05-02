@@ -9,6 +9,16 @@ public class StringMethods1 {
 		
 		// 1. Create a String variable and initialize it to whatever you want
 
+		
+		              
+		String fruit=" SUSTAINABILITY";
+		System.out.println(fruit.charAt(0));
+		System.out.println(fruit.length());
+		for (int i = 0; i<fruit.length(); i++) {
+			System.out.println(fruit.charAt(i));
+		}
+		
+		
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		

@@ -13,6 +13,26 @@ import javax.swing.JOptionPane;
 public class ChangeCalculator {
 
 	public static void main(String[] args) {
+		
+		String change1= JOptionPane.showInputDialog("How many nickols doo u hav?");
+		int bd=Integer.parseInt(change1);
+		double total=0.0;
+		total+=bd*.05;
+		
+		String change2= JOptionPane.showInputDialog("How many dymes doo u hav?");
+		int bg=Integer.parseInt(change2);
+		total+=bd*.10;
+		
+		String change3= JOptionPane.showInputDialog("How many qworters doo u hav?");
+		int bh=Integer.parseInt(change3);
+		
+		total+=bd*.25;
+		
+		JOptionPane.showMessageDialog(null, total);
+		
+		
+		
+		
 
 		// Ask the user how many nickels they have
 
